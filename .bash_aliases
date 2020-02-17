@@ -1,5 +1,3 @@
-alias c='clear'
-
 function m {
   if [ ! -n "$1" ]; then
     echo "Enter a directory name"
@@ -7,8 +5,35 @@ function m {
     echo "\`$1' already exists"
   else
     mkdir $1 && cd $1
-  fi
+  fi  
 }
+
+function mp {
+  if [ ! -n "$1" ]; then
+    echo "Enter a directory name"
+  elif [ -d $1 ]; then
+    echo "\`$1' already exists"
+  else
+    mkdir $1 && cd $1
+  fi
+  python3 -m venv venv
+  source venv/bin/activate
+}
+
+function md {
+  if [ ! -n "$1" ]; then
+    echo "Enter a directory name"
+  elif [ -d $1 ]; then
+    echo "\`$1' already exists"
+  else
+    mkdir $1 && cd $1
+  fi
+  python3 -m venv venv
+  source venv/bin/activate
+  pip install django
+  django-admin startproject $1 .  
+}
+
 
 #alias dc='cd ~/sbox/dillonchaffey/'
 function dc() {
@@ -26,6 +51,14 @@ function dc() {
 	fi	
 }
 
+alias c='clear'
+alias ..='cd ..' 
+alias ...='cd ..; cd ..'
+alias ....='cd ..; cd ..; cd ..'
+alias ~='cd ~'
+
+alias o='xdg-open .'
+
 #APT
 alias ai='sudo apt install'
 alias ar='sudo apt remove'
@@ -38,6 +71,7 @@ alias ae='sudo nano /etc/apt/sources.list'
 
 
 alias ls='ls -AlhF --color=auto'
+alias lsd='ls -ld -- */'
 
 alias diskspace="du -S | sort -n -r |more"
 alias folders="find . -maxdepth 1 -type d -print | xargs du -sk | sort -rn"
@@ -50,6 +84,7 @@ alias pyweb='python3 -m http.server'
 #GIT
 alias gs='git status'
 alias ga='git add'
+alias gc='git commit -m'
 alias gp='git push origin master'
 
 function g() {
