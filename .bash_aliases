@@ -83,8 +83,10 @@ alias pyweb='python3 -m http.server'
 
 #GIT
 alias gs='git status'
+alias gd='git diff'
 alias ga='git add'
-alias gc='git commit -m'
+#alias gc='git commit -m'
+function gc() {	git commit -m "$@"; }
 alias gp='git push origin master'
 
 function g() {
@@ -92,8 +94,10 @@ function g() {
     git commit -a -m $*
 	git push origin master
 }
-
 function gt() { { cd .git &> /dev/null && cd .. && git add -A && git commit -m "${1:-push`date`}" && git push; } || echo "WARNING! This is not a git folder."; }
+
+#DJANGO
+alias rd='python manage.py runserver'
 
 #HEROKU
 alias hl='heroku logs'
