@@ -86,6 +86,7 @@ alias gs='git status'
 alias gd='git diff'
 alias ga='git add'
 #alias gc='git commit -m'
+alias gcd='git commit -m "`date`"'
 function gc() {	git commit -m "$@"; }
 alias gp='git push origin master'
 
