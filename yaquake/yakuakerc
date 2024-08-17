@@ -1,0 +1,25 @@
+[Animation]
+Frames=11
+
+[Appearance]
+HideSkinBorders=true
+Skin=materia-dark
+
+[Behavior]
+RememberFullscreen=true
+
+[Desktop Entry]
+DefaultProfile=zakalwe.profile
+
+[Dialogs]
+FirstRun=false
+
+[Shortcuts]
+toggle-window-state=none
+view-full-screen=Alt+F11
+
+[Window]
+Height=40
+KeepOpen=false
+Position=55
+ToggleToFocus=true

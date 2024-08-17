@@ -1,0 +1,45 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
+
+[ExtractDialog]
+2 screens: Height=558
+2 screens: Width=1280
+DirHistory[$e]=$HOME/Downloads/
+
+[FileDialogSize]
+2 screens: Height=593
+2 screens: Width=882
+
+[General]
+LockPanels=false
+Version=202
+ViewPropsTimestamp=2024,7,25,22,42,38.805
+
+[IconsMode]
+PreviewSize=192
+
+[InformationPanel]
+previewsShown=false
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=48
+Recent Files[$e]=file:$HOME,file:$HOME
+Recent URLs[$e]=file:$HOME/Downloads/
+detailViewIconSize=16
+
+[KPropertiesDialog]
+2 screens: Height=477
+2 screens: Width=334
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[PlacesPanel]
+IconSize=48
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mltpreview,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs

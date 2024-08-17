@@ -1,0 +1,21 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Fantasy" value="true" />
+        <entry key="$USER_HOME$/Fantasy/PythonScripts" value="true" />
+        <entry key="$USER_HOME$/PYCHARM_PROJECTS/agent" value="true" />
+        <entry key="$USER_HOME$/PYCHARM_PROJECTS/meta_expert" value="true" />
+        <entry key="$USER_HOME$/PYCHARM_PROJECTS/my_chat_api_playground" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/PYCHARM_PROJECTS" />
+        <option value="$USER_HOME$" />
+      </list>
+    </option>
+  </component>
+</application>

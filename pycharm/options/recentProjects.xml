@@ -1,0 +1,41 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/PYCHARM_PROJECTS/agent">
+          <value>
+            <RecentProjectMetaInfo displayName="agent, meta_expert" frameTitle="agent" projectWorkspaceId="2kMuEODOpzOQ1K08NUH17KAdvay">
+              <option name="activationTimestamp" value="1723308593254" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-241.18968.29" />
+              <option name="buildTimestamp" value="1722868980000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="0" y="0" width="1920" height="1080" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1723105655588" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PYCHARM_PROJECTS/my_chat_api_playground">
+          <value>
+            <RecentProjectMetaInfo displayName="my_chat_api_playground, PythonScripts" frameTitle="my_chat_api_playground – gemini_api_call.py [my_chat_api_playground]" opened="true" projectWorkspaceId="2kTXZFJ6ztrbJQr2dWMJ2TEBduQ">
+              <option name="activationTimestamp" value="1723858673948" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-241.18968.29" />
+              <option name="buildTimestamp" value="1722868980000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="0" y="0" width="1920" height="1080" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1723501675064" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/PYCHARM_PROJECTS/my_chat_api_playground" />
+  </component>
+</application>

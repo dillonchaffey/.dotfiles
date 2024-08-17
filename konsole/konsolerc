@@ -1,0 +1,50 @@
+2 screens: Height=672
+2 screens: Width=412
+2 screens: XPosition=2773
+2 screens: YPosition=212
+DP-1 HDMI-1=HDMI-1
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAAXUA////+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAABGgD///8AAAGcAAACcwAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAWT/////AAAAAAAAAAA=
+
+[Desktop Entry]
+DefaultProfile=zakalwe.profile
+
+[FileDialogSize]
+2 screens: Height=597
+2 screens: Width=890
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+1920x1080 screen: Height=508
+1920x1080 screen: Width=900
+1920x1080 screen: XPosition=510
+1920x1080 screen: YPosition=315
+2 screens: Height=672
+2 screens: Width=422
+2 screens: XPosition=2763
+2 screens: YPosition=212
+DP-1 HDMI-1=HDMI-1
+HDMI-1=HDMI-1
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAAXUA////+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAABGgD///8AAAGmAAACcwAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAZr/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar sessionToolbar]
+ToolButtonStyle=IconOnly
+
+[SplitView]
+SplitViewVisibility=AlwaysHideSplitHeader
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Toolbar sessionToolbar]
+ToolButtonStyle=IconOnly
+
+[UiSettings]
+ColorScheme=Krita dark orange

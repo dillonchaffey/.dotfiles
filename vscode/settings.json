@@ -1,0 +1,7 @@
+{
+    "cloudcode.updateChannel": "Insiders",
+    "git.enableSmartCommit": true,
+    "cloudcode.duetAI.project": "vscode-cloud-code-432803",
+    "diffEditor.codeLens": true,
+    "git.confirmSync": false
+}
