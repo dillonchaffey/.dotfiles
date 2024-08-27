@@ -23,12 +23,23 @@ CONFIGS = {
         "~/.config/VSCodium/User/keybindings.json"
     ],
     "pycharm": [
-        "~/.config/JetBrains/PyCharm*/options",  # Use * for different versions
-        # Add more PyCharm-specific config files here
+        # "~/.config/JetBrains/PyCharm*/options",  # lot o junk in here
+        "~/.config/JetBrains/PyCharm*/templates",
+        "~/.config/JetBrains/PyCharm*/scratches"
     ],
-    "konsole": ["~/.config/konsolerc"],
+    "konsole": [
+        "~/.config/konsolerc",
+        "~/.local/share/kxmlgui5/konsole/konsoleui.rc"
+        "~/.local/share/kxmlgui5/konsole/partui.rc",
+        "~/.local/share/kxmlgui5/konsole/sessionui.rc",
+
+    ],
     "yaquake": ["~/.config/yakuakerc"],
-    "dolphin": ["~/.config/dolphinrc"],
+    "dolphin": [
+        "~/.config/dolphinrc",
+        "~/.local/share/kxmlgui5/dolphin/dolphinui.rc",
+        "~/.local/share/user-places.xbel"
+    ],
     "cool-retro-term": ["~/.config/cool-retro-term"],  # This might be a directory
     "bash": [
         "~/.bashrc",  # Bash configuration
