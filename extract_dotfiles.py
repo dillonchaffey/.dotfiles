@@ -3,7 +3,7 @@ import subprocess
 import shutil
 import glob
 
-# Define the target directory for dotfiles
+# # Define the target directory for dotfiles
 DOTFILES_DIR = os.path.expanduser("~/.dotfiles")
 
 # Configuration for different applications
