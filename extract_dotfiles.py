@@ -3,15 +3,13 @@ import subprocess
 import shutil
 import glob
 
-# # Define the target directory for dotfiles
-DOTFILES_DIR = os.path.expanduser("~/.dotfiles")
-
 # Configuration for different applications
 CONFIGS = {
     "kde": [
         "~/.config/kdeglobals",
         "~/.config/plasma-org.kde.plasma.desktop-appletsrc",
         "~/.config/kglobalshortcutsrc",  # KDE keyboard shortcuts
+        "~/.config/plasmanotifyrc", # KDE notifications
         # Add more KDE-specific config files here
     ],
     "vscode": [
@@ -23,14 +21,25 @@ CONFIGS = {
         "~/.config/VSCodium/User/keybindings.json"
     ],
     "pycharm": [
-        # "~/.config/JetBrains/PyCharm*/options",  # lot o junk in here
-        "~/.config/JetBrains/PyCharm*/templates",
+        # ~/.config/JetBrains/PyCharm*/options,  # lot o junk in here, 
+                                                   # so here are the ones that look valuable
+    #   ~/.config/JetBrains/PyCharm*/options/AIAssistantPromptLibraryStorage.xml
+    #   ~/.config/JetBrains/PyCharm*/options/CodeiumExtensionStorage.xml
+    #   ~/.config/JetBrains/PyCharm*/options/colors.scheme.xml
+    #   ~/.config/JetBrains/PyCharm*/options/console-font.xml
+    #   ~/.config/JetBrains/PyCharm*/options/debugger.xml
+    #   ~/.config/JetBrains/PyCharm*/options/diff.xml
+    #   ~/.config/JetBrains/PyCharm*/options/editor-font.xml
+    #   ~/.config/JetBrains/PyCharm*/options/editor.xml
+    #   ~/.config/JetBrains/PyCharm*/options/github.xml
+    #   ~/.config/JetBrains/PyCharm*/options/keymapFlags.xml
+    #   ~/.config/JetBrains/PyCharm*/options/linux/keymap.xml        
+        "~/.config/JetBrains/PyCharm*/templates", # live templates
         "~/.config/JetBrains/PyCharm*/scratches"
     ],
     "micro": [
         "~/.config/micro/settings.json",
         "~/.config/micro/bindings.json"
-
     ],
     "konsole": [
         "~/.config/konsolerc",
@@ -50,6 +59,9 @@ CONFIGS = {
         "~/.bash_aliases",  # Bash aliases
     ],
 }
+
+# # Define the target directory for dotfiles
+DOTFILES_DIR = os.path.expanduser("~/.dotfiles")
 
 # Function to handle copying/restoring files or directories
 def handle_config(source, destination, mode):
