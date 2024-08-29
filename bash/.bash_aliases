@@ -3,15 +3,25 @@
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias lsd='ls -ld -- */'
 
-alias ,ls='ls -AlhF --color=auto'
+alias lsd='exa -lh --tree --git | tte burn'
+alias lsdt='tree -lh | tte slide'
+
+alias ,ls='exa --git-ignore -lh --tree ../AGENT'
 
 ### MY CURRENT BABY
 function a() {
-    cd ~/PYCHARM_PROJECTS/my_chat_api_playground/
+    cd ~/AGENT/
     source ./.venv/bin/activate
+    exa -lh --tree --git
 }
+#################
+
+function q() {
+    cd ~/VSCODE_PROJECTS/songs/
+#     source ~/PYCHARM_PROJECTS/my_chat_api_playground/.venv/bin/activate
+}
+
 
 alias ,c='clear'
 alias ,..='cd ..'
@@ -33,6 +43,7 @@ alias ,as='sudo apt list --installed | grep'
 alias ,ae='sudo nano /etc/apt/sources.list'
 
 # git
+alias ,gsshclone='echo "git clone ssh://git@github.com/dillonchaffey/<repository name>.git"'
 alias gs='git status'
 alias ,gs='git status'
 alias ,gd='git diff'
@@ -48,6 +59,8 @@ alias ,vc='python3 -m venv ./venv'
 alias ,va='source ./.venv/bin/activate'
 alias ,vd='deactivate'
 
+alias ,f='fuck'
+alias ,su='sudo $(history -p !!)'
 
 #'command | pbcopy' and then Ctrl-V elsewhere
 alias pbcopy='xclip -selection clipboard'
@@ -55,7 +68,8 @@ alias pbpaste='xclip -selection clipboard -o'
 
 alias ,br='source ~/.bashrc'
 alias ,bb='cp ~/.bash_aliases ~/.bash_aliases.backup_$(date +%Y-%m-%d_%H%M%S)'
-
+alias ,ba='kate ~/.bash_aliases'
+alias ,brc='kate ~/.bashrc'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

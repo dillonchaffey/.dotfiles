@@ -4,7 +4,6 @@
     "zenMode.showTabs": "single",
     "zenMode.hideLineNumbers": false,
     "zenMode.centerLayout": false,
-    "workbench.colorTheme": "Tokyo Night",
     "git.openRepositoryInParentFolders": "never",
     "codeium.enableConfig": {
         "*": true,
@@ -82,5 +81,7 @@
     "editor.guides.indentation": true,
     "explorer.confirmDelete": false,
     "workbench.activityBar.location": "hidden",
-    "terminal.integrated.tabs.enabled": false
+    "terminal.integrated.tabs.enabled": false,
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "workbench.startupEditor": "none"
 }

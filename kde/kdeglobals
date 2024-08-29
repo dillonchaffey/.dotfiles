@@ -109,10 +109,10 @@ ForegroundVisited=173,101,175
 
 [DirSelect Dialog]
 DirSelectDialog Size=890,597
-History Items[$e]=file:$HOME/PYCHARM_PROJECTS/my_chat_api_playground,file:$HOME/D-MONEY-TERMINAL/Notes/TodoToday,file:$HOME/PYCHARM_PROJECTS/my_chat_api_playground,file:$HOME/D-MONEY-TERMINAL/Notes,file:$HOME/D-MONEY-TERMINAL/Notes,file:$HOME,file:$HOME/D-MONEY-TERMINAL/Notes,file:$HOME/Fantasy,file:$HOME/gitkraken_repos/agent-zero,file:$HOME/gitkraken_repos,file:$HOME/PYCHARM_PROJECTS/agent-zero,file:$HOME/PYCHARM_PROJECTS/agent_orig,file:$HOME/PYCHARM_PROJECTS/meta_expert,file:$HOME/PYCHARM_PROJECTS/agent,file:$HOME/Muzik/agent,file:$HOME/Muzik/scripts/YawningAngel/tab_munger,file:$HOME/Muzik,file:$HOME/Muzik/WWW,file:$HOME/TEMP_BAK/AT2,file:$HOME/Muzik/WWW,file:$HOME/Muzik/scripts,file:$HOME/Muzik/scripts/YawningAngel/tab_munger,file:$HOME/APPZ/GuitarTuner-master,file:$HOME/Muzik/scripts,file:$HOME/D-MONEY-TERMINAL,file:$HOME/yawning-angel,file:$HOME/yawning_angel,file:$HOME/yawning_angel,file:$HOME/Muzik/scripts,file:$HOME/Muzik/scripts/YawningAngel,file:$HOME/,file:$HOME/Documents,file:$HOME/Muzik/scripts,file:$HOME/Muzik,file:$HOME/Muzik,file:$HOME/Muzik
+History Items[$e]=file:$HOME/VSCODE_PROJECTS/songs,file:$HOME/VSCODE_PROJECTS/songs/recursive_agent,file:$HOME/PYCHARM_PROJECTS/my_chat_api_playground,file:$HOME/D-MONEY-TERMINAL/Notes/TodoToday,file:$HOME/PYCHARM_PROJECTS/my_chat_api_playground,file:$HOME/D-MONEY-TERMINAL/Notes,file:$HOME/D-MONEY-TERMINAL/Notes,file:$HOME,file:$HOME/D-MONEY-TERMINAL/Notes,file:$HOME/Fantasy,file:$HOME/gitkraken_repos/agent-zero,file:$HOME/gitkraken_repos,file:$HOME/PYCHARM_PROJECTS/agent-zero,file:$HOME/PYCHARM_PROJECTS/agent_orig,file:$HOME/PYCHARM_PROJECTS/meta_expert,file:$HOME/PYCHARM_PROJECTS/agent,file:$HOME/Muzik/agent,file:$HOME/Muzik/scripts/YawningAngel/tab_munger,file:$HOME/Muzik,file:$HOME/Muzik/WWW,file:$HOME/TEMP_BAK/AT2,file:$HOME/Muzik/WWW,file:$HOME/Muzik/scripts,file:$HOME/Muzik/scripts/YawningAngel/tab_munger,file:$HOME/APPZ/GuitarTuner-master,file:$HOME/Muzik/scripts,file:$HOME/D-MONEY-TERMINAL,file:$HOME/yawning-angel,file:$HOME/yawning_angel,file:$HOME/yawning_angel,file:$HOME/Muzik/scripts,file:$HOME/Muzik/scripts/YawningAngel,file:$HOME/,file:$HOME/Documents,file:$HOME/Muzik/scripts,file:$HOME/Muzik,file:$HOME/Muzik,file:$HOME/Muzik
 
 [General]
-BrowserApplication=brave-browser.desktop
+BrowserApplication=google-chrome.desktop
 ColorSchemeHash=3b17c5d56f8f372f0b0b9f709c4579c23e51fe6a
 
 [KFileDialog Settings]

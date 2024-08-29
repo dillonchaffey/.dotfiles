@@ -136,5 +136,12 @@ export NVM_DIR="$HOME/.nvm"
 
 
 ## TextTerminalEffects on login
-/home/zakalwe/PYCHARM_PROJECTS/my_chat_api_playground/.venv/bin/python /home/zakalwe/PYCHARM_PROJECTS/my_chat_api_playground/mylibs/parse_todo_markdown.py | tte $(echo "expand wipe slide" | tr ' ' '\n' | shuf -n 1)
+/home/zakalwe/PYCHARM_PROJECTS/my_chat_api_playground/.venv/bin/python /home/zakalwe/PYCHARM_PROJECTS/my_chat_api_playground/mylibs/parse_todo_markdown.py | figlet -f '3d' -w 200 | tte $(echo "expand wipe slide slice middleout" | tr ' ' '\n' | shuf -n 1)
 #$(echo "beams binarypath blackhole bouncyballs bubbles burn colorshift crumble decrypt errorcorrect expand fireworks middleout orbittingvolley overflow pour print rain randomsequence rings scattered slice slide spotlights spray swarm synthgrid unstable vhstape waves wipe" | tr ' ' '\n' | shuf -n 1)
+
+export PATH="~/APPZ/bin:$PATH"
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/zakalwe/APPZ/google-cloud-sdk/path.bash.inc' ]; then . '/home/zakalwe/APPZ/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/zakalwe/APPZ/google-cloud-sdk/completion.bash.inc' ]; then . '/home/zakalwe/APPZ/google-cloud-sdk/completion.bash.inc'; fi

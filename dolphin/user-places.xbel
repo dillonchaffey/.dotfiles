@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel>
+<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv">
+ <info>
+  <metadata owner="http://www.kde.org">
+   <kde_places_version>4</kde_places_version>
+   <GroupState-Places-IsHidden>false</GroupState-Places-IsHidden>
+   <GroupState-Remote-IsHidden>true</GroupState-Remote-IsHidden>
+   <GroupState-Devices-IsHidden>false</GroupState-Devices-IsHidden>
+   <GroupState-RemovableDevices-IsHidden>false</GroupState-RemovableDevices-IsHidden>
+   <GroupState-Tags-IsHidden>false</GroupState-Tags-IsHidden>
+   <withRecentlyUsed>true</withRecentlyUsed>
+   <GroupState-RecentlySaved-IsHidden>false</GroupState-RecentlySaved-IsHidden>
+   <withBaloo>true</withBaloo>
+   <GroupState-SearchFor-IsHidden>false</GroupState-SearchFor-IsHidden>
+  </metadata>
+ </info>
+ <bookmark href="file:///home/zakalwe">
+  <title>Home</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="user-home"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1721955697/0</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/Downloads">
+  <title>Downloads</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-downloads"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1721955697/3</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/AGENT">
+  <title>shinier</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="deepin-cloudprint-config-helper"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1724574476/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/VSCODE_PROJECTS/songs/recursive_agent">
+  <title>shiny</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="deepin-cloud-scan-config-helper"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1723985220/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/ANSIBLE_PROJECTS">
+  <title>ANSIBLE_PROJECTS</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="docker-desktop"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1724733318/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/WWW">
+  <title>WWW</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="org.xfce.gigolo"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1724171281/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/D-MONEY-TERMINAL">
+  <title>D-MONEY-TERMINAL</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="user-black-desktop"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1722294270/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/PYCHARM_PROJECTS/my_chat_api_playground">
+  <title>my_chat_api_playground</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="papirus-folders-gui"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1723441946/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/CULTURE">
+  <title>CULTURE</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="lutris_lovers-in-a-dangerous-spacetime"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1723650339/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/Muzik">
+  <title>Muzik</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="library-music"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1722041785/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/VSCODE_PROJECTS">
+  <title>VSCODE_PROJECTS</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="com.visualstudio.code"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1723860654/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/PYCHARM_PROJECTS">
+  <title>PYCHARM_PROJECTS</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="pycharm"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1723116874/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/VSCODIUM_PROJECTS">
+  <title>VSCODIUM_PROJECTS</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="vscodium"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1724352072/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/Desktop">
+  <title>Desktop</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="user-desktop"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1721955697/1</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/Documents">
+  <title>Documents</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-documents"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1721955697/2</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/Muzik/TABS">
+  <title>TABS</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="tuxguitar"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1722313300/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/Music">
+  <title>Music</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-music"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1721955697/6</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>true</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/Pictures">
+  <title>Pictures</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-pictures"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1721955697/7</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>true</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/Videos">
+  <title>Videos</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-videos"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1721955697/8</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>true</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="remote:/">
+  <title>Network</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-network"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1721955697/4</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="recentlyused:/files">
+  <title>Recent Files</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="document-open-recent"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1721955697/9</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="recentlyused:/locations">
+  <title>Recent Locations</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-open-recent"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1721955697/10</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/nvme0n1p2</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sdb1</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sda1</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <bookmark href="file:///home/zakalwe/APPZ">
+  <title>APPZ</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="insync-folder"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1722108329/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="trash:/">
+  <title>Trash</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="user-trash"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1721955697/5</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/Muzik/scripts/YawningAngel">
+  <title>YawningAngel</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1722324424/0</ID>
+    <OnlyInApp>dolphin</OnlyInApp>
+    <IsHidden>true</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sdb2</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sda2</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+</xbel>

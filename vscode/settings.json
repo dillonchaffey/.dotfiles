@@ -3,5 +3,10 @@
     "git.enableSmartCommit": true,
     "cloudcode.duetAI.project": "vscode-cloud-code-432803",
     "diffEditor.codeLens": true,
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "files.exclude": {
+        ".idea/": true
+    },
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false
 }

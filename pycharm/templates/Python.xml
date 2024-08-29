@@ -1,0 +1,15 @@
+<templateSet group="Python">
+  <template name="debugp" value="if DEBUG == True:&#10;    print(&quot;Debug msg:)&#10;    print($MYVAR$)" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="MYVAR" expression="" defaultValue="__name__" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="sleep" value="time.sleep($MYVAR$)" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="MYVAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ADB" value="DEBUG = eval(os.environ.get(&quot;AGENT_DEBUG&quot;, &quot;True&quot;))" description="" toReformat="false" toShortenFQNames="true" />
+</templateSet>

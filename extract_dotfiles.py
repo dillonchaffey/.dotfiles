@@ -27,12 +27,16 @@ CONFIGS = {
         "~/.config/JetBrains/PyCharm*/templates",
         "~/.config/JetBrains/PyCharm*/scratches"
     ],
+    "micro": [
+        "~/.config/micro/settings.json",
+        "~/.config/micro/bindings.json"
+
+    ],
     "konsole": [
         "~/.config/konsolerc",
         "~/.local/share/kxmlgui5/konsole/konsoleui.rc"
         "~/.local/share/kxmlgui5/konsole/partui.rc",
         "~/.local/share/kxmlgui5/konsole/sessionui.rc",
-
     ],
     "yaquake": ["~/.config/yakuakerc"],
     "dolphin": [

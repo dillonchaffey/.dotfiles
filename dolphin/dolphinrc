@@ -14,11 +14,13 @@ DirHistory[$e]=$HOME/Downloads/
 
 [General]
 LockPanels=false
+OpenExternallyCalledFolderInNewTab=true
+ShowFullPath=true
 Version=202
 ViewPropsTimestamp=2024,7,25,22,42,38.805
 
 [IconsMode]
-PreviewSize=192
+PreviewSize=112
 
 [InformationPanel]
 previewsShown=false
@@ -31,8 +33,8 @@ Recent URLs[$e]=file:$HOME/Downloads/
 detailViewIconSize=16
 
 [KPropertiesDialog]
-2 screens: Height=477
-2 screens: Width=334
+2 screens: Height=633
+2 screens: Width=476
 
 [MainWindow]
 MenuBar=Disabled
