@@ -26,4 +26,7 @@ view-full-screen=F11
 
 [Window]
 Height=40
-Position=55
+Position=49
+Screen=1
+ToggleToFocus=true
+Width=100

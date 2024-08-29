@@ -5,36 +5,6 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometries-1366x768=
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=574787d5-afc2-48ab-b13d-9a404a9a7b3e
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.color
-
-[Containments][1][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][1][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=444
-iconSize=6
-positions={"1366x768":["1"\\,"4"\\,"desktop:/5e-database-main.zip"\\,"0"\\,"2"\\,"desktop:/Guitar Lessons_gp5\\,gp4\\,gp3\\,gtp"\\,"0"\\,"0"\\,"desktop:/index2.html"\\,"0"\\,"1"]\\,"1920x1080":["1"\\,"6"\\,"desktop:/join_lines_plugin"\\,"0"\\,"0"\\,"desktop:/misspell"\\,"0"\\,"1"\\,"desktop:/run_python"\\,"0"\\,"2"\\,"desktop:/run_python.lua"\\,"0"\\,"3"]}
-sortMode=-1
-
-[Containments][1][Wallpaper][org.kde.color][General]
-Color=7,40,62
-
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/zakalwe/Pictures/blue_lines_wallhaven.jpg
-SlidePaths=/usr/share/plasma/wallpapers/,/usr/share/wallpapers/
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -69,7 +39,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][27][Configuration][General]
-launcherUrls=file:///home/zakalwe/.local/share/applications/pycharm.sh.desktop
+enablePopup=true
+maxSectionCount=3
 showLauncherNames=true
 
 [Containments][2][Applets][27][Shortcuts]
@@ -104,9 +75,15 @@ PreloadWeight=100
 favoriteApps=preferred://browser,org.kde.discover.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop,patchance.desktop,ardour.desktop,com.obsproject.Studio.desktop,org.kde.krita.desktop,gimp.desktop,org.kde.kdenlive.desktop,org.kde.digikam.desktop,org.darktable.darktable.desktop
 showAppsByName=true
 
+[Containments][2][Applets][3][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][3][Configuration][General]
+customButtonImage=start-here-ubuntu
 favoriteApps=preferred://browser\\,org.kde.discover.desktop\\,systemsettings.desktop\\,org.kde.dolphin.desktop\\,org.kde.kate.desktop\\,patchance.desktop\\,ardour.desktop\\,com.obsproject.Studio.desktop\\,org.kde.krita.desktop\\,gimp.desktop\\,org.kde.kdenlive.desktop\\,org.kde.digikam.desktop\\,org.darktable.darktable.desktop
 favoritesPortedToKAstats=true
+useCustomButtonImage=true
 
 [Containments][2][Applets][3][Configuration][Shortcuts]
 global=Alt+F1
@@ -120,7 +97,7 @@ plugin=org.kde.plasma.systemmonitor.cpucore
 
 [Containments][2][Applets][30][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=85
+PreloadWeight=95
 
 [Containments][2][Applets][30][Configuration][Appearance]
 chartFace=org.kde.ksysguard.barchart
@@ -191,10 +168,6 @@ positions={"1920x1080":[]}
 url=file:///home/zakalwe/D-MONEY-TERMINAL/Notes/TodoToday
 useCustomIcon=true
 
-[Containments][2][Applets][4]
-immutability=1
-plugin=org.kde.plasma.pager
-
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -207,7 +180,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:org.kde.yakuake.desktop,applications:cool-retro-term.desktop,preferred://browser,applications:org.kde.konsole.desktop,applications:org.gnome.Terminal.desktop,applications:brave-browser.desktop,applications:obsidian_obsidian.desktop,applications:tabby.desktop,applications:code.desktop,applications:org.kde.kate.desktop,applications:codium.desktop,applications:dev.zed.Zed.desktop,applications:libreoffice-writer.desktop,applications:org.kde.systemmonitor.desktop,applications:gitkraken.desktop,applications:io.github.cboxdoerfer.FSearch.desktop,applications:org.kde.discover.desktop,applications:kcm_kwin_virtualdesktops.desktop,applications:kcm_kwin_effects.desktop,applications:kcm_keys.desktop,applications:org.kde.plasma-systemmonitor.desktop,applications:org.kde.dolphin.desktop,applications:libreoffice-calc.desktop,applications:sqlitebrowser.desktop,file:///usr/share/applications/discord.desktop,applications:org.gnome.seahorse.Application.desktop,applications:org.godotengine.Godot.desktop,applications:org.gnome.Boxes.desktop,applications:com.github.phase1geo.minder.desktop,applications:org.kde.partitionmanager.desktop,applications:transmission-gtk.desktop
+launchers=applications:cool-retro-term.desktop,applications:code.desktop,applications:org.kde.yakuake.desktop,applications:alacritty.desktop,applications:dev.warp.Warp.desktop,preferred://browser,applications:jetbrains-pycharm-ce.desktop,applications:obsidian_obsidian.desktop,applications:brave-browser.desktop,applications:org.gnome.Terminal.desktop,applications:org.kde.konsole.desktop,applications:tabby.desktop,applications:org.kde.kate.desktop,applications:codium.desktop,applications:libreoffice-writer.desktop,applications:org.kde.systemmonitor.desktop,applications:gitkraken.desktop,applications:io.github.cboxdoerfer.FSearch.desktop,applications:org.kde.discover.desktop,applications:kcm_kscreen.desktop,applications:kcm_kwin_virtualdesktops.desktop,applications:kcm_kwinrules.desktop,applications:kcm_kwin_effects.desktop,applications:kcm_keys.desktop,file:///usr/share/kservices5/khotkeys.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.plasma-systemmonitor.desktop,applications:libreoffice-calc.desktop,applications:sqlitebrowser.desktop,file:///usr/share/applications/discord.desktop,applications:org.gnome.seahorse.Application.desktop,applications:org.godotengine.Godot.desktop,applications:org.gnome.Boxes.desktop,applications:com.github.phase1geo.minder.desktop,applications:org.kde.partitionmanager.desktop,applications:transmission-gtk.desktop
 wheelEnabled=false
 
 [Containments][2][Applets][6]
@@ -223,23 +196,54 @@ DialogHeight=74
 DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=3;4;27;5;34;30;29;38;6;19;20
+AppletOrder=3;5;27;34;30;29;38;6;19;20
 
-[Containments][26]
+[Containments][39]
+activityId=574787d5-afc2-48ab-b13d-9a404a9a7b3e
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.color
+
+[Containments][39][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][39][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=444
+filterMimeTypes=\\0
+filterMode=1
+iconSize=0
+labelWidth=2
+positions={"1366x768":["1"\\,"4"\\,"desktop:/5e-database-main.zip"\\,"0"\\,"2"\\,"desktop:/Guitar Lessons_gp5\\,gp4\\,gp3\\,gtp"\\,"0"\\,"0"\\,"desktop:/index2.html"\\,"0"\\,"1"]\\,"1920x1080":[]}
+sortMode=-1
+textLines=1
+
+[Containments][39][Wallpaper][org.kde.color][General]
+Color=103,103,103
+
+[Containments][39][Wallpaper][org.kde.image][General]
+Image=/home/zakalwe/Pictures/blue_lines_wallhaven.jpg
+SlidePaths=/usr/share/plasma/wallpapers/,/usr/share/wallpapers/
+
+[Containments][40]
 activityId=574787d5-afc2-48ab-b13d-9a404a9a7b3e
 formfactor=0
 immutability=1
 lastScreen=1
 location=0
-plugin=org.kde.plasma.folder
+plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.image
 
-[Containments][26][ConfigDialog]
+[Containments][40][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][26][Wallpaper][org.kde.image][General]
-Image=/home/zakalwe/Pictures/blue_lines_wallhaven.jpg
+[Containments][40][Wallpaper][org.kde.image][General]
+Image=/home/zakalwe/Pictures/fantasy-characters-experiencing-love_23-2151164484.jpg
 SlidePaths=/home/zakalwe/.local/share/wallpapers/,/usr/share/plasma/wallpapers/,/usr/share/wallpapers/
 
 [Containments][7]
@@ -288,7 +292,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][16][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][7][Applets][17]
 immutability=1
@@ -311,7 +315,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][23][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 
 [Containments][7][Applets][24]
 immutability=1
@@ -356,7 +360,8 @@ hiddenItems=org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,Yakuake
 iconSpacing=1
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.kscreen,org.kde.plasma.clipboard,org.kde.plasma.nightcolorcontrol,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardlayout,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.kupapplet,org.kde.plasma.manage-inputmethod
 scaleIconsToFit=true
+shownItems=org.kde.plasma.notifications
 
 [ScreenMapping]
-itemsOnDisabledScreens=
-screenMapping=desktop:/run_python,0,574787d5-afc2-48ab-b13d-9a404a9a7b3e,desktop:/misspell,0,574787d5-afc2-48ab-b13d-9a404a9a7b3e,desktop:/join_lines_plugin,0,574787d5-afc2-48ab-b13d-9a404a9a7b3e,desktop:/run_python.lua,0,574787d5-afc2-48ab-b13d-9a404a9a7b3e
+itemsOnDisabledScreens=0,574787d5-afc2-48ab-b13d-9a404a9a7b3e,8,desktop:/palettero-main,desktop:/micro-aspell-plugin,desktop:/micro-autofmt,desktop:/micro-bookmark,desktop:/filemanager,desktop:/micro-run,desktop:/micro-jump-main,desktop:/micro-cheat-main
+screenMapping=

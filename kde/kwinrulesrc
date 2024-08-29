@@ -1,0 +1,86 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=Application settings for konsole
+clientmachine=localhost
+decocolor=KritaDarkOrange
+decocolorrule=2
+wmclass=konsole
+wmclassmatch=1
+
+[13e8c3ae-d318-4632-a3c3-ce3bf1ca11bc]
+Description=cool-retro-term
+skipswitcher=true
+skipswitcherrule=5
+wmclass=cool-retro-term
+wmclassmatch=2
+
+[167baaba-ad00-4bd7-8aba-f3fd3477c18e]
+Description=Window settings for jetbrains-pycharm-ce
+clientmachine=localhost
+skipswitcher=true
+skipswitcherrule=5
+title=Python Console - songs
+titlematch=1
+types=1
+wmclass=jetbrains-pycharm-ce
+wmclassmatch=1
+
+[27cd2e80-5a75-4379-87cb-8aeb39979d36]
+Description=Application settings for konsole
+clientmachine=localhost
+decocolor=KritaDarkOrange
+decocolorrule=2
+wmclass=konsole
+wmclassmatch=1
+
+[33f3e789-4abd-4d04-ae35-af2e7540040a]
+Description=cool-retro-term
+skipswitcher=true
+skipswitcherrule=3
+wmclass=cool-retro-term
+wmclassmatch=2
+
+[6bd47992-c65d-4b99-a705-9eec854954f7]
+Description=Window settings for jetbrains-pycharm-ce
+clientmachine=localhost
+skipswitcher=true
+skipswitcherrule=3
+title=Python Console - songs
+titlematch=1
+types=1
+wmclass=jetbrains-pycharm-ce
+wmclassmatch=1
+
+[General]
+count=2
+rules=1,33f3e789-4abd-4d04-ae35-af2e7540040a
+
+[cb2f65cd-85c8-4040-bb0d-7998db6cdff8]
+Description=Window settings for google-chrome
+clientmachine=localhost
+skipswitcherrule=5
+title=Gemini - Google Chrome
+types=1
+windowrole=browser
+windowrolematch=1
+wmclass=google-chrome
+wmclassmatch=1
+
+[cf25edad-33bc-4566-ab04-72f634b40414]
+Description=Window settings for Picture in picture
+clientmachine=localhost
+skipswitcher=true
+skipswitcherrule=4
+title=Picture in picture
+titlematch=1
+types=1
+wmclassmatch=1
+
+[f65b70d4-1be8-49e3-b19c-b8b3cb40ce84]
+Description=cool-retro-term-noshow-task-switcher
+skipswitcher=true
+skipswitcherrule=4
+wmclass=cool-retro-term
+wmclassmatch=1

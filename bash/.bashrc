@@ -97,6 +97,9 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+
+
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -135,11 +138,14 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
+
+export PATH=$PATH:/home/zakalwe/pycharm-community-2024.1.5/bin
+export PATH=$PATH:/home/zakalwe/D-MONEY-TERMINAL/user_binz
+
 ## TextTerminalEffects on login
 /home/zakalwe/PYCHARM_PROJECTS/my_chat_api_playground/.venv/bin/python /home/zakalwe/PYCHARM_PROJECTS/my_chat_api_playground/mylibs/parse_todo_markdown.py | figlet -f '3d' -w 200 | tte $(echo "expand wipe slide slice middleout" | tr ' ' '\n' | shuf -n 1)
 #$(echo "beams binarypath blackhole bouncyballs bubbles burn colorshift crumble decrypt errorcorrect expand fireworks middleout orbittingvolley overflow pour print rain randomsequence rings scattered slice slide spotlights spray swarm synthgrid unstable vhstape waves wipe" | tr ' ' '\n' | shuf -n 1)
 
-export PATH="~/APPZ/bin:$PATH"
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/zakalwe/APPZ/google-cloud-sdk/path.bash.inc' ]; then . '/home/zakalwe/APPZ/google-cloud-sdk/path.bash.inc'; fi
 

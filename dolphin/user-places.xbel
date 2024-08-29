@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv">
+<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
  <info>
   <metadata owner="http://www.kde.org">
    <kde_places_version>4</kde_places_version>
@@ -23,6 +23,18 @@
    </metadata>
    <metadata owner="http://www.kde.org">
     <ID>1721955697/0</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/Desktop">
+  <title>Desktop</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="user-yaru-desktop"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1721955697/1</ID>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>
@@ -50,7 +62,7 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/zakalwe/VSCODE_PROJECTS/songs/recursive_agent">
+ <bookmark href="file:///home/zakalwe/A_GENT">
   <title>shiny</title>
   <info>
    <metadata owner="http://freedesktop.org">
@@ -87,21 +99,10 @@
   <title>D-MONEY-TERMINAL</title>
   <info>
    <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="user-black-desktop"/>
+    <bookmark:icon name="obsidian"/>
    </metadata>
    <metadata owner="http://www.kde.org">
     <ID>1722294270/0</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/zakalwe/PYCHARM_PROJECTS/my_chat_api_playground">
-  <title>my_chat_api_playground</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="papirus-folders-gui"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1723441946/0</ID>
    </metadata>
   </info>
  </bookmark>
@@ -124,51 +125,7 @@
    </metadata>
    <metadata owner="http://www.kde.org">
     <ID>1722041785/0</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/zakalwe/VSCODE_PROJECTS">
-  <title>VSCODE_PROJECTS</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="com.visualstudio.code"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1723860654/0</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/zakalwe/PYCHARM_PROJECTS">
-  <title>PYCHARM_PROJECTS</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="pycharm"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1723116874/0</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/zakalwe/VSCODIUM_PROJECTS">
-  <title>VSCODIUM_PROJECTS</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="vscodium"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1724352072/0</ID>
-   </metadata>
-  </info>
- </bookmark>
- <bookmark href="file:///home/zakalwe/Desktop">
-  <title>Desktop</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="user-desktop"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1721955697/1</ID>
-    <isSystemItem>true</isSystemItem>
+    <IsHidden>true</IsHidden>
    </metadata>
   </info>
  </bookmark>
@@ -184,6 +141,74 @@
    </metadata>
   </info>
  </bookmark>
+ <bookmark href="file:///home/zakalwe/VSCODE_PROJECTS">
+  <title>VSCODE_PROJECTS</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="com.visualstudio.code"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1723860654/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/VSCODIUM_PROJECTS">
+  <title>VSCODIUM_PROJECTS</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="vscodium"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1724352072/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/PYCHARM_PROJECTS">
+  <title>PYCHARM_PROJECTS</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="pycharm"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1723116874/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/.my_venvs">
+  <title>venvs</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="knetattach"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1724968371/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/.config/micro/plug">
+  <title>micro plug</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="adobeflashplugin"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1724838504/0</ID>
+    <IsHidden>true</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/VSCODIUM_PROJECTS/micro">
+  <title>micro</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="nvim-gtk"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1724834075/0</ID>
+    <IsHidden>true</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
  <bookmark href="file:///home/zakalwe/Muzik/TABS">
   <title>TABS</title>
   <info>
@@ -192,6 +217,7 @@
    </metadata>
    <metadata owner="http://www.kde.org">
     <ID>1722313300/0</ID>
+    <IsHidden>true</IsHidden>
    </metadata>
   </info>
  </bookmark>
@@ -346,4 +372,15 @@
    </metadata>
   </info>
  </separator>
+ <bookmark href="file:///home/zakalwe/QT_PROJECTS">
+  <title>QT_PROJECTS</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1724964182/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
 </xbel>

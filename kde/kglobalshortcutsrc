@@ -23,7 +23,12 @@ display=Display,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
+{42df74f0-a0f6-4861-aef5-c5fc8309dc25}=,none,Stop Watching
 {747d0b48-0087-4456-88ae-f350b18de4ca}=Meta+9,none,PromptBuilderFromCopy
+{b794acb8-f7f0-495e-a501-f84f24ca7072}=Meta+B,none,Edit Aliases
+{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
+{d9ce9bc6-f652-4ba9-aaca-837b448a4b3b}=Meta+Shift+D,none,Kill Dolphins
+{f5de74f0-f6ca-45de-9f2a-f45ab586baec}=Meta+O,none,Start Watching
 
 [kmix]
 _k_friendly_name=Audio Volume

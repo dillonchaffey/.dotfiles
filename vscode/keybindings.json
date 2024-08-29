@@ -41,5 +41,14 @@
     {
         "key": "ctrl+r",
         "command": "python.execInDedicatedTerminal"
+    },
+    {
+        "key": "ctrl+shift+alt+k",
+        "command": "workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+shift+alt+c",
+        "command": "-copyRelativeFilePath",
+        "when": "!editorFocus"
     }
 ]

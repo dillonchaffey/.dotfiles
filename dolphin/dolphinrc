@@ -3,6 +3,13 @@ MenuBar=Disabled
 [$Version]
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
 
+[CompactMode]
+MaximumTextWidthIndex=1
+PreviewSize=32
+
+[DetailsMode]
+PreviewSize=128
+
 [ExtractDialog]
 2 screens: Height=558
 2 screens: Width=1280
@@ -20,7 +27,8 @@ Version=202
 ViewPropsTimestamp=2024,7,25,22,42,38.805
 
 [IconsMode]
-PreviewSize=112
+IconSize=16
+PreviewSize=144
 
 [InformationPanel]
 previewsShown=false
@@ -40,8 +48,14 @@ detailViewIconSize=16
 MenuBar=Disabled
 ToolBarsMovable=Disabled
 
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
 [PlacesPanel]
 IconSize=48
 
 [PreviewSettings]
-Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mltpreview,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly

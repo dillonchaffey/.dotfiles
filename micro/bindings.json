@@ -1,4 +1,16 @@
 {
     "Alt-/": "lua:comment.comment",
-    "CtrlUnderscore": "lua:comment.comment"
+    "AltCtrlSpace": "command:palettero",
+    "Ctrl-F2": "command:toggleBookmark",
+    "CtrlShift-F2": "command:clearBookmarks",
+    "CtrlSpace": "command:palettero",
+    "CtrlUnderscore": "lua:comment.comment",
+    "F1": "command:cheat",
+    "F2": "command:nextBookmark",
+    "Shift-F2": "command:prevBookmark",
+    "F4": "command:jumptag",
+    "F5": "command:runit",
+    "F9": "command:makeupbg",
+    "F12": "command:makeup"
+    
 }

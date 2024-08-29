@@ -1,6 +1,5 @@
 {
     "editor.minimap.enabled": false,
-    "workbench.sideBar.location": "right",
     "zenMode.showTabs": "single",
     "zenMode.hideLineNumbers": false,
     "zenMode.centerLayout": false,
@@ -80,8 +79,11 @@
     },
     "editor.guides.indentation": true,
     "explorer.confirmDelete": false,
-    "workbench.activityBar.location": "hidden",
     "terminal.integrated.tabs.enabled": false,
     "workbench.colorTheme": "Ayu Mirage Bordered",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "window.customTitleBarVisibility": "windowed",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "hidden"
 }

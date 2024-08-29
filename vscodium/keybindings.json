@@ -55,10 +55,6 @@
         "command": "-workbench.action.openEditorAtIndex1"
     },
     {
-        "key": "ctrl+b",
-        "command": "workbench.action.togglePanel"
-    },
-    {
         "key": "alt+2",
         "command": "workbench.action.toggleMaximizedPanel"
     },
@@ -81,7 +77,7 @@
     },
     {
         "key": "ctrl+b",
-        "command": "-workbench.action.toggleSidebarVisibility"
+        "command": "workbench.action.toggleSidebarVisibility"
     },
     {
         "key": "ctrl+shift+v",
@@ -145,5 +141,22 @@
     {
         "key": "ctrl+r",
         "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+shift+alt+q",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "ctrl+shift+alt+k",
+        "command": "workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+shift+alt+c",
+        "command": "-copyRelativeFilePath",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+c",
+        "command": "cody.chat.panel.restore"
     }
 ]

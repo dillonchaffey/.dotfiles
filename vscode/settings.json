@@ -8,5 +8,8 @@
         ".idea/": true
     },
     "workbench.sideBar.location": "right",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "explorer.excludeGitIgnore": true,
+    "workbench.editor.showTabs": "single"
 }

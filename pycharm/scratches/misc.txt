@@ -1,0 +1,11 @@
+
+/home/zakalwe/AGENT
+/home/zakalwe/.dotfiles
+/home/zakalwe/.dotfiles-primagin
+/home/zakalwe/AGENT_MANAGER
+/home/zakalwe/ansible-master
+/home/zakalwe/ANSIBLE_PROJECTS
+/home/zakalwe/VSCODE_PROJECTS/songs
+/home/zakalwe/PYCHARM_PROJECTS/TMUX_AGENT
+
+

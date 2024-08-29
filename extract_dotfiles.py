@@ -10,6 +10,8 @@ CONFIGS = {
         "~/.config/plasma-org.kde.plasma.desktop-appletsrc",
         "~/.config/kglobalshortcutsrc",  # KDE keyboard shortcuts
         "~/.config/plasmanotifyrc", # KDE notifications
+        "~/.config/kwinrulesrc", # KDE app specific window rules
+
         # Add more KDE-specific config files here
     ],
     "vscode": [
@@ -23,17 +25,17 @@ CONFIGS = {
     "pycharm": [
         # ~/.config/JetBrains/PyCharm*/options,  # lot o junk in here, 
                                                    # so here are the ones that look valuable
-    #   ~/.config/JetBrains/PyCharm*/options/AIAssistantPromptLibraryStorage.xml
-    #   ~/.config/JetBrains/PyCharm*/options/CodeiumExtensionStorage.xml
-    #   ~/.config/JetBrains/PyCharm*/options/colors.scheme.xml
-    #   ~/.config/JetBrains/PyCharm*/options/console-font.xml
-    #   ~/.config/JetBrains/PyCharm*/options/debugger.xml
-    #   ~/.config/JetBrains/PyCharm*/options/diff.xml
-    #   ~/.config/JetBrains/PyCharm*/options/editor-font.xml
-    #   ~/.config/JetBrains/PyCharm*/options/editor.xml
-    #   ~/.config/JetBrains/PyCharm*/options/github.xml
-    #   ~/.config/JetBrains/PyCharm*/options/keymapFlags.xml
-    #   ~/.config/JetBrains/PyCharm*/options/linux/keymap.xml        
+        # "~/.config/JetBrains/PyCharm*/options/AIAssistantPromptLibraryStorage.xml",
+        # "~/.config/JetBrains/PyCharm*/options/CodeiumExtensionStorage.xml",
+        "~/.config/JetBrains/PyCharm*/options/colors.scheme.xml",
+        "~/.config/JetBrains/PyCharm*/options/console-font.xml",
+        # "~/.config/JetBrains/PyCharm*/options/debugger.xml",
+        # "~/.config/JetBrains/PyCharm*/options/diff.xml",
+        "~/.config/JetBrains/PyCharm*/options/editor-font.xml",
+        "~/.config/JetBrains/PyCharm*/options/editor.xml",
+        # "~/.config/JetBrains/PyCharm*/options/github.xml",
+        # "~/.config/JetBrains/PyCharm*/options/keymapFlags.xml", 
+        # "~/.config/JetBrains/PyCharm*/options/linux/keymap.xml", #not the actual keymap ...
         "~/.config/JetBrains/PyCharm*/templates", # live templates
         "~/.config/JetBrains/PyCharm*/scratches"
     ],
@@ -89,6 +91,7 @@ def handle_config(source, destination, mode):
                 print(f"Restored file {source} to {destination}")
     except FileNotFoundError:
         print(f"Warning: File or directory not found: {source}")
+
 
 # Create the dotfiles directory if it doesn't exist
 if not os.path.exists(DOTFILES_DIR):
