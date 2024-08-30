@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel>
+<xbel folded="no" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" dbusName="dolphin">
+ <bookmark href="file:///usr/share/applications">
+  <title>/usr/share/applications</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+  <desc/>
+ </bookmark>
+ <bookmark href="file:///usr/local">
+  <title>/usr/local</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+  <desc/>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/.local/bin">
+  <title>~/.local/bin</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+  <desc/>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/.config">
+  <title>~/.config</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+  <desc/>
+ </bookmark>
+ <bookmark href="file:///home/zakalwe/.config/micro/plug">
+  <title>micro/plug</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+  <desc></desc>
+ </bookmark>
+</xbel>

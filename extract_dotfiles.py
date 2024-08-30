@@ -5,15 +5,58 @@ import glob
 
 # Configuration for different applications
 CONFIGS = {
+    # KDE and friends
+#####                #####################    
     "kde": [
         "~/.config/kdeglobals",
         "~/.config/plasma-org.kde.plasma.desktop-appletsrc",
         "~/.config/kglobalshortcutsrc",  # KDE keyboard shortcuts
-        "~/.config/plasmanotifyrc", # KDE notifications
-        "~/.config/kwinrulesrc", # KDE app specific window rules
+        "~/.config/khotkeysrc", # hotkeys
+        "~/.config/plasmanotifyrc", # notifications
+        "~/.config/kwinrulesrc", # app specific window rules
 
         # Add more KDE-specific config files here
     ],
+    "dolphin": [
+        "~/.config/dolphinrc",
+        "~/.local/share/kxmlgui5/dolphin/dolphinui.rc",
+        "~/.local/share/user-places.xbel", # places sidebar
+        "~/.local/share/dolphin/bookmarks.xml"
+    ],
+    "konsole": [
+        "~/.local/share/konsole", #!directory  # konsole and yakuake profiles
+        "~/.config/konsolerc",
+        "~/.local/share/kxmlgui5/konsole/konsoleui.rc"
+        "~/.local/share/kxmlgui5/konsole/partui.rc",
+        "~/.local/share/kxmlgui5/konsole/sessionui.rc",
+    ],
+    "yaquake": ["~/.config/yakuakerc"],    
+    "kate": [
+        "~/.local/share/kxmlgui5/kate/kateui.rc", # kate kdb shortcuts
+# .config/katerc
+# .config/katemetainfos
+# .config/konsolerc
+# .config/okularrc
+# .config/QtProject.conf
+# .config/okularpartrc
+# .config/komparerc
+# .config/katepartrc
+# .config/kateschemarc
+# .config/katesyntaxhighlightingrc
+# .config/katemoderc
+# .local/share/kate/
+# .local/share/katepart/
+# .local/share/katekonsole/
+# .local/share/org.kde.syntax-highlighting/
+# .local/share/ktexteditor_snippets/
+# .local/share/dolphin/            
+    ],
+    
+
+
+    # other GUI apps
+####                #######################
+
     "vscode": [
         "~/.config/Code/User/settings.json",
         "~/.config/Code/User/keybindings.json"
@@ -39,26 +82,32 @@ CONFIGS = {
         "~/.config/JetBrains/PyCharm*/templates", # live templates
         "~/.config/JetBrains/PyCharm*/scratches"
     ],
+    "alacritty": ["~/.config/alacritty/alacritty.toml"],
+    "cool-retro-term": ["~/.config/cool-retro-term"],  # This might be a directory    
+
+
+    # TERMINAL
+#####         #############################
+    # terminal stuff
+    "zsh": [
+        "~/.zshrc",
+    #     "~/.zsh_aliases",
+    #     "~/.zsh_functions",
+    #     "~/.zsh_history",
+    #     "~/.zsh_history_legacy",
+    #     "~/.zsh_history_y",
+    ],
+    "bash": [
+        "~/.bashrc",  # Bash configuration
+        "~/.bash_aliases",  # Bash and zsh aliases
+    ],    
     "micro": [
         "~/.config/micro/settings.json",
         "~/.config/micro/bindings.json"
     ],
-    "konsole": [
-        "~/.config/konsolerc",
-        "~/.local/share/kxmlgui5/konsole/konsoleui.rc"
-        "~/.local/share/kxmlgui5/konsole/partui.rc",
-        "~/.local/share/kxmlgui5/konsole/sessionui.rc",
-    ],
-    "yaquake": ["~/.config/yakuakerc"],
-    "dolphin": [
-        "~/.config/dolphinrc",
-        "~/.local/share/kxmlgui5/dolphin/dolphinui.rc",
-        "~/.local/share/user-places.xbel"
-    ],
-    "cool-retro-term": ["~/.config/cool-retro-term"],  # This might be a directory
-    "bash": [
-        "~/.bashrc",  # Bash configuration
-        "~/.bash_aliases",  # Bash aliases
+    "tmux": [
+        "~/.tmux.conf",
+        "~/.tmux.conf.local"
     ],
 }
 

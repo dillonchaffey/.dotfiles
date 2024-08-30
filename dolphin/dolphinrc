@@ -42,7 +42,7 @@ detailViewIconSize=16
 
 [KPropertiesDialog]
 2 screens: Height=633
-2 screens: Width=476
+2 screens: Width=468
 
 [MainWindow]
 MenuBar=Disabled

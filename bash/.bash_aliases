@@ -5,7 +5,8 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # alias bat='batcat'
-# alias nano='micro'
+alias nano='micro'
+alias vim='micro'
 
 alias lsd='exa -lh --tree --git | tte burn'
 alias lsdt='tree -lh | tte slide'
@@ -38,6 +39,8 @@ alias ,td='tmux detach'
 alias ,tc='tmux new-window'
 # tmux new-session -d -s "foofoo"
 # tmux new-window -n "fooooo"
+
+alias ,weather='curl -m 1 wttr.in | tte rain'
 
 alias ,c='clear'
 alias ,..='cd ..'

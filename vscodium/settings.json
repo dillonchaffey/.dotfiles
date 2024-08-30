@@ -85,5 +85,6 @@
     "editor.inlineSuggest.suppressSuggestions": true,
     "window.customTitleBarVisibility": "windowed",
     "workbench.statusBar.visible": false,
-    "workbench.activityBar.location": "hidden"
+    "workbench.activityBar.location": "hidden",
+    "terminal.integrated.fontFamily": "MesloLGS NF"
 }

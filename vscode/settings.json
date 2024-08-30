@@ -11,5 +11,8 @@
     "editor.minimap.enabled": false,
     "editor.inlineSuggest.suppressSuggestions": true,
     "explorer.excludeGitIgnore": true,
-    "workbench.editor.showTabs": "single"
+    "workbench.editor.showTabs": "single",
+    "git.openRepositoryInParentFolders": "never",
+    "terminal.integrated.fontFamily": "MesoLGS NF",
+    "terminal.integrated.defaultProfile.linux": "zsh"
 }

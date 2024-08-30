@@ -1,0 +1,6 @@
+[shell]
+program = "/bin/zsh"
+
+
+[font.normal]
+family = "MesloLGS NF"

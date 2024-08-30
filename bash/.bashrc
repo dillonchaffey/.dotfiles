@@ -151,3 +151,5 @@ if [ -f '/home/zakalwe/APPZ/google-cloud-sdk/path.bash.inc' ]; then . '/home/zak
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/zakalwe/APPZ/google-cloud-sdk/completion.bash.inc' ]; then . '/home/zakalwe/APPZ/google-cloud-sdk/completion.bash.inc'; fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
